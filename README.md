@@ -1,1 +1,4 @@
-# UpdateRecord
+# **UpdateRecord**
+This  is a PGSQL statement that alters a record in the "students" table of a database. Although the "SET" phrase specifies which columns should be changed with their new values, the "UPDATE" keyword is used to alter already-existing data. This example changes the "first name," "last name," and "class id" columns to "Shannon," "Sanchez," and "ENG101," respectively.
+The "WHERE" keyword specifies the condition that must be satisfied in order for the update to occur. The criterion in this example is that the "student id" column must equal '13871'. This indicates that just the record with the value "student id" of "13871" will be changed..
+In general, this code will modify a specific student's first name, last name, and class ID in the "students" table based on the ID number.
